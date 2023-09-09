@@ -1,0 +1,2891 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    background: rgb(33, 33, 130);
+    height: 30px;
+    max-width:100%;
+    position: fixed;
+    width: 100%;
+    z-index: 3000;
+}
+.lo{
+    background-image: url(logo.png);
+    height: 20px;
+    width: 200px;
+    top: 5px;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon{
+    position: relative;
+    left: 250px;
+    color: rgb(73, 95, 223);
+}
+.icon:hover{
+    color: #ffffff;
+}
+.row{
+    position: relative;
+    left: 700px;
+    top: -15px;
+    word-spacing: 10px;
+}
+.fa-angle-left{
+    color: rgb(208, 208, 208);
+    cursor: pointer;
+}
+.fa-angle-left:hover{
+    color: white;
+}
+.row-1{
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.fa-chevron-right{
+    color: rgb(208, 208, 208);
+    cursor: pointer;
+}
+.fa-chevron-right:hover{
+    color: white;
+}
+.row-2{
+    position: relative;
+    left: 1265px;
+    top: -35px;
+}
+.fa-arrow-up-right-from-square{
+    cursor: pointer;
+    color: rgb(192, 192, 192);
+}
+.fa-arrow-up-right-from-square:hover{
+    color: aliceblue;
+}
+.fre{
+    text-decoration: none;
+    font-family: sans-serif;
+    background: blue;
+    padding: 6px;
+    padding-left: 66px;
+    color: rgb(219, 219, 219);
+}
+.fre:hover{
+    color: white;
+}
+.fa-download{
+    position: relative;
+    left: 35px;
+    color: rgb(213, 213, 213);
+    cursor: pointer;
+}
+.fa-download:hover{
+    color: white;
+}
+
+.container-1{
+    background: rgb(233, 241, 255);
+    height: 40px;
+    max-width:100%;
+    position: relative;
+    top: 30px;
+}
+.con{
+    position: relative;
+    left: 150px;
+    top: 10px;
+}
+.fa-envelope{
+    color: rgb(78, 78, 241);
+}
+.exa{
+    display: inline-block;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.exa:hover{
+    color: rgb(78, 78, 241);
+}
+.con-1{
+    position: relative;
+    left: 380px;
+    top: -8px;
+}
+.fa-mobile-button{
+    color: rgb(78, 78, 241) ;
+}
+.no{
+    display: inline-block;
+}
+.con-2{
+   position: relative;
+   top: -27px;
+   left: 1290px;
+   color: rgb(78, 78, 241) ;
+   cursor: pointer;
+   word-spacing: 10px;
+}
+.hide:hover{
+    color: blue;
+}
+.container-2{
+    background: white;
+    height: 100px;
+    width:100%;
+    position: sticky;
+    top: 30px;
+    z-index: 1;
+    margin-top: 50px;
+}
+.container-2 a{
+    text-decoration: none;
+}
+.me{
+    position: relative;
+    left: 150px;
+    top: 20px;
+    width: 100px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 1000;
+    color: rgb(80, 80, 162);
+    cursor: pointer;
+}
+.list{
+    position: relative;
+    left: 600px;
+    top: -20px;
+}
+.list-1{
+    display: inline-block;
+    margin-right: 30px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.list-2{
+    color: blue;
+}
+.line{
+    background: blue;
+    height: 3px;
+    width: 100%;
+    position: relative;
+    top: 10px;
+    border-radius: 10px;
+}
+.line1{
+    background: blue;
+    height: 3px;
+    width: 10px;
+    position: relative;
+    top: 10px;
+    border-radius: 10px;
+    display: none;
+    display: inline;
+    transition: 0.5s;
+}
+.list-1:hover .line1{
+    display: block;
+    width: 100%;
+}
+.Drop{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.ma{
+    position: relative;
+    left: 1270px;
+    top: -50px;
+    background: blue;
+    padding: 10px;
+    border-radius: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.fa-bars{
+    position: relative;
+    left: 1300px;
+    top: -50px;
+    display: none;
+}
+.container-3{
+    background: url(young-handsome-physician-medical-robe-with-stethoscope_1303-17818.avif);
+    height: 600px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.con-3{
+    position:relative;
+    left: 150px;
+    top: 200px;
+    line-height: 60px;
+}
+.wel{
+    font-size: xxx-large;
+    font-family: sans-serif;
+    font-weight: 1000;
+    color: rgb(64, 73, 143);
+}
+.are{
+    font-size: x-large;
+    color: rgb(68, 68, 147);
+}
+.get{
+    background: rgb(36, 36, 211);
+    padding: 15px;
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.list-2 a{
+    text-decoration: none;
+    color: #0d00ff;
+}
+.list-1 a{
+    text-decoration: none;
+    color: #000000;
+}
+.container-4{
+    background: white;
+    height: 1050px;
+    max-width:100%;
+}
+.table{
+    background: #2d68ff;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: -150px;
+    left: 80px;
+    border-radius: 6px;
+}
+.wh{
+    padding: 50px;
+    color: aliceblue;
+}
+.lor{
+    padding: 50px;
+    position: relative;
+    top: -70px;
+    line-height: 25px;
+    color: rgb(249, 249, 249);
+}
+.le{
+    position: relative;
+    top: -100px;
+    left: 140px;
+    text-decoration: none;
+    font-family: sans-serif;
+    background: rgb(70, 70, 253);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.table-1{
+    background: white;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    top: -500px;
+    left: 520px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(209, 209, 209);
+}
+.fa-newspaper{
+    padding: 40px;
+    position: relative;
+    left: 90px;
+    font-size: xxx-large;
+    color: #2d68ff;
+}
+.cor{
+    position: relative;
+    left: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 200px;
+}
+.cons{
+    text-align: center;
+    position: relative;
+    top: 10px;
+    width: 200px;
+    left: 50px;
+    line-height: 25px;
+}
+.table-2{
+    background: white;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    top: -500px;
+    left: 520px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(209, 209, 209);
+}
+.fa-cube{
+    padding: 40px;
+    position: relative;
+    left: 80px;
+    top: -5px;
+    font-size: xxx-large;
+    color: #2d68ff;
+}
+.table-3{
+    background: white;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    top: -520px;
+    left: 520px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(209, 209, 209);
+}
+.fa-images{
+    padding: 40px;
+    position: relative;
+    left: 80px;
+    top: -5px;
+    font-size: xxx-large;
+    color: #2d68ff;
+}
+.table-4{
+    background: url(about.jpg);
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -350px;
+}
+.fa-play{
+    background: #2d68ff;
+    color: aliceblue;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    padding-top: 28px;
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+    left: 250px;
+    top: 250px;
+    cursor: pointer;
+}
+.table-5{
+    position: relative;
+    top: -900px;
+    left: 700px;
+    width: 800;
+}
+.enim{
+    font-family: sans-serif;
+    font-weight: 1000;
+    color: #2b4994;
+}
+.ess{
+    line-height: 25px;
+    position: relative;
+    top: 10px;
+}
+.eni-1{
+    position: relative;
+    top: 50px;
+}
+.fing{
+    font-size: xx-large;
+    color: #2d68ff;
+    background: rgb(255, 255, 255);
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    padding-left: 18px;
+    padding-top: 16px;
+    border: 2px solid #618af3;
+    transition: all 1s;
+}
+.eni-1:hover .fing{
+    background: #2d68ff;
+    height: 70px;
+    width:70px;
+    color: aliceblue;
+    border-radius: 100px;
+    padding-left: 18px;
+    padding-top: 16px;
+    cursor: pointer;
+}
+.ips{
+    font-family: sans-serif;
+    position: relative;
+    left: 100px;
+    top: -65px;
+}
+.vo{
+    left: 90px;
+    top: -55px;
+    width: 600px;
+    position: relative;
+}
+.container-5{
+    background: #e9efff;
+    height: 250px;
+    width: 100%;
+    padding-left: 100px;
+}
+.doc{
+    background: white;
+    height: 130px;
+    width: 250px;
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 70px;
+    border-radius: 2px;
+}
+.user{
+    font-size: x-large;
+    background: #28499a;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: relative;
+    left: 100px;
+    top: -18px;
+    text-align: center;
+    padding-top: 10px;
+    color: #eaeaea;
+}
+.hig{
+    font-size: xx-large;
+    text-align: center;
+}
+.do{
+    text-align: center;
+}
+.container-6{
+    background: white;
+    height: 1000px;
+    width: 100%;
+}
+.se{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: sans-serif;
+}
+.under{
+    background: blue;
+    height: 3px;
+    width: 110;
+    position: relative;
+    left: 705px;
+    top: 10px;
+}
+.mag{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-family: sans-serif;
+    width: 1000px;
+    left: 270px;
+    line-height: 30px;
+}
+.box1{
+    background: white;
+    border: 0.1px solid  rgb(163, 163, 255);
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 200px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.box1:hover{
+    background: #4f61e6;
+}
+.box1:hover .ip{
+    color: white;
+}
+.box1:hover .vol{
+    color: white;
+}
+.box1:hover .hea{
+    background: #ffffff;
+    color: #4f61e6;
+}
+.box2:hover{
+    background: #4f61e6;
+}
+.box2:hover .ip{
+    color: white;
+}
+.box2:hover .vol{
+    color: white;
+}
+.box2:hover .hea{
+    background: #ffffff;
+    color: #4f61e6;
+}
+.hea{
+    font-size: xxx-large;
+    background: #2f53ae;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 150px;
+    top: 60px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: rgb(241, 240, 240);
+}
+.box2{
+    background: white;
+    border: 0.1px solid rgb(163, 163, 255);
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 30px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.ip{
+    text-align: center;
+    position: relative;
+    font-family: sans-serif;
+    top: 90px;
+    color: rgb(0, 0, 0);
+}
+.vol{
+    position: relative;
+    top: 70px;
+    padding: 40px;
+    text-align: center;
+    color: #000000;
+}
+.container-7{
+    background: #e4ecff;
+    height: 800px;
+    width: 100%;
+}
+.mak{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.start{
+    background: blue;
+    height: 3px;
+    width: 150px;
+    position: relative;
+    left: 685px;
+    top: 15px;
+}
+.magnam{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    width: 1300;
+    left: 100px;
+    line-height: 30px;
+    font-size: large;
+}
+.na{
+    position: relative;
+    left: 100px;
+    top: 200px;
+}
+.name{
+    padding: 10px;
+    padding-right: 200px;
+    margin-left:50px;
+}
+.name:hover{
+    border-color: #28499a;
+    outline: #2b4994;
+}
+.na-1{
+    position: relative;
+    top: 250px;
+    margin-left: 150px;
+}
+.app{
+    padding: 10px;
+    padding-right: 200px;
+}
+.app:hover{
+    border-color: #28499a;
+    outline: #2b4994;
+}
+.sel{
+    margin-left: 50px;
+    padding: 10px;
+    padding-right: 235px;
+}
+.sel1{
+    margin-left: 50px;
+    padding: 10px;
+    padding-right: 290px;
+}
+.mes{
+    position: relative;
+    top: 300px;
+    left: 150px;
+    padding-right: 1070px;
+    padding-bottom: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.makea{
+    background-color: #294da8;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 1opx;
+    position: relative;
+    top: 530px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 50px;
+    right: 550px;
+}.container-8{
+    background: whitesmoke;
+    height: 600px;
+    width: 100%;
+}
+.de{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: sans-serif;
+}
+.poi{
+    background: blue;
+    height: 3px;
+    width: 150px;
+    position: relative;
+    top: 20px;
+    left: 685px;
+}
+.dol{
+    font-size: large;
+    text-align: center;
+    width: 1300px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    line-height: 30px;
+}
+.ca{
+    position: relative;
+    left: 130px;
+    top: 150px;
+    line-height: 50px;
+    list-style-type: none;
+    width: 200px;
+   
+}
+.ca-1{
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.ca-1:hover{
+    color: #2b61ea;
+}
+.cd{
+   background: #000000;
+   height:220px;
+   width: 2px;
+   position: relative;
+   left: 200px;
+   top: -235px;
+}
+.card{
+    position: relative;
+    top: -300px;
+    left: 400px;
+}
+.ol{
+    font-family: sans-serif;
+    color: #1c2f5f;
+}
+.qu{
+    font-family: sans-serif;
+    line-height: 30px;
+    position: relative;
+    top: 30px;
+    width: 600px;
+}
+.et{
+    font-family: sans-serif;
+    line-height: 30px;
+    position: relative;
+    top: 40px;
+    width: 700px;
+}
+.pic{
+    background: url(departments-1.jpg);
+    height: 250px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+    top: -200px;
+    left: 690px;
+    box-shadow: 1px 1px 5px rgb(204, 204, 204);
+}
+.container-9{
+    background: whitesmoke;
+    height: 850px;
+    width: 100%;
+}
+.litt{
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+}
+.litt-1{
+    background: blue;
+    height: 3px;
+    width: 100px;
+    position: relative;
+    left: 710px;
+    top: 20px;
+}
+.comm{
+    text-align: center;
+    width: 1200px;
+    position: relative;
+    left: 150px;
+    top: 100px;
+    line-height: 30px;
+    font-size: large;
+}
+.doctor{
+    background: white ;
+    height: 250px;
+    width: 650px;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+.doctor1{
+    background: white ;
+    height: 250px;
+    width: 650px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 150px;
+}
+.doctor2{
+    background: white ;
+    height: 250px;
+    width: 650px;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.doctor3{
+    background: white ;
+    height: 250px;
+    width: 650px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.do1{
+    background: url(doctors-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    border-radius: 100px;
+    left: 30px;
+    top: 40px;
+    transition: all 3s;
+}
+.doctor:hover .do1{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    border-radius: 150px;
+    left: 30px;
+    top: 40px;
+    cursor: pointer;
+} .doctor1:hover .do2{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    border-radius: 150px;
+    left: 30px;
+    top: 40px;
+    cursor: pointer;
+}
+.doctor2:hover .do3{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    border-radius: 150px;
+    left: 30px;
+    top: 40px;
+    cursor: pointer;
+}
+.doctor3:hover .do4{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    border-radius: 150px;
+    left: 30px;
+    top: 40px;
+    cursor: pointer;
+}
+.do2{
+    background: url(doctors-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    border-radius: 100px;
+    left: 30px;
+    top: 40px;
+    transition: all 0.5s;
+}
+.do3{
+    background: url(doctors-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    border-radius: 100px;
+    left: 30px;
+    top: 40px;
+    transition: all 0.5s;
+}
+.do4{
+    background: url(doctors-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    width: 170px;
+    position: relative;
+    border-radius: 100px;
+    left: 30px;
+    top: 40px;
+    transition: all 0.5s;
+}
+.doct{
+    position: relative;
+    left: 200px;
+    top: 10px;
+    width: 400px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #294da8;
+}
+.docto{
+    color: #294da8;
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+.exp{
+    color: #1c2f5f;
+    position: relative;
+    left: 200px;
+    top: 50px;
+    width: 300px;
+}
+.hide1{
+    position: relative;
+    left: 200px;
+    color: #28499a;
+    top: 80px;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+.container-10{
+    background: rgb(246, 247, 255);
+    height: 800px;
+    width: 100%;
+}
+.freq{
+    text-align: center;
+    color: #1c2f5f;
+    position: relative;
+    top: 50px;
+    font-family: sans-serif;
+}
+.fr{
+    background: blue;
+    height: 3px;
+    width: 200px;
+    position: relative;
+    left: 650px;
+    top: 20px;
+}
+.commmo{
+    width: 1100px;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    font-size: large;
+}
+.non{
+    position: relative;
+    left: 400px;
+    top: 200px;
+    background: white;
+    padding: 20px;
+    width: 800px;
+}
+.non1{
+    position: relative;
+    left: 400px;
+    top: 220px;
+    background: white;
+    padding: 20px;
+    width: 800px;
+}
+.non2{
+    position: relative;
+    left: 400px;
+    top: 240px;
+    background: white;
+    padding: 20px;
+    width: 800px;
+}
+.non3{
+    position: relative;
+    left: 400px;
+    top: 260px;
+    background: white;
+    padding: 20px;
+    width: 800px;
+}
+.non4{
+    position: relative;
+    left: 400px;
+    top: 280px;
+    background: white;
+    padding: 20px;
+    width: 800px;
+}
+.fe{
+    padding-left: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+.fe:hover{
+    color: #426cd4;
+}
+.fa-chevron-down{
+    position: relative;
+    left: 130px;
+    color: #2b61ea;
+}
+.ch{
+    position: relative;
+    left: 395px;
+    color: #2b61ea;
+}
+.ch1{
+    position: relative;
+    left: 410px;
+    color: #2b61ea;
+}
+.ch2{
+    position: relative;
+    left: 425px;
+    color: #2b61ea;
+}.ch3{
+    position: relative;
+    left: 245px;
+    color: #2b61ea;
+}
+.fa-question{
+    color: #2b61ea;
+}
+.container-11{
+    background: whitesmoke;
+    height: 500px;
+    width: 100%;
+}
+.saul1{
+    background: #ffffff;
+    height: 250px;
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    top: 100px;
+    margin-left: 100px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px gainsboro;
+}
+.saul{
+    background: url(testimonials-1.jpg);
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: -50px;
+    top: 30px;
+    box-shadow: 1px 1px 10px gainsboro;
+}
+.sara{
+    background: url(testimonials-2.jpg);
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: -50px;
+    top: 30px;
+    box-shadow: 1px 1px 10px gainsboro;
+}
+.goo{
+    position: relative;
+    left: 100px;
+    top: -50px;
+    font-family: sans-serif;
+}
+.ceo{
+    position: relative;
+    left: 100px;
+    top: -40px;
+    color: #5d5d5d;
+}
+.pro{
+    position: relative;
+    text-align: center;
+    padding: 40px;
+    top: -50px;
+    left: 10px;
+}
+.ra{
+    position: relative;
+    top: 200px;
+    left: -430px;
+    cursor: pointer;
+}
+.container-12{
+    background: white;
+    height: 1000px;
+    width: 100%;
+}
+.gall{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.gal{
+    background: #0048ff;
+    height: 3px;
+    width: 80px;
+    position: relative;
+    left: 722px;
+    top: 15px;
+}
+.sus{
+    text-align: center;
+    position: relative;
+    left: 200px;
+    width: 1100px;
+    top: 100px;
+    line-height: 30px;
+}
+.ho{
+    background: url(gallery-1.jpg);
+    height: 350px;
+    width: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    cursor: pointer;
+    
+}
+.ho:hover{
+    background-size: 550px;
+
+}
+.ho1{
+    background: url(gallery-2.jpg);
+    height: 350px;
+    width: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    cursor: pointer;
+}
+.ho1:hover{
+    background-size: 550px;
+
+}
+.ho2{
+    background: url(gallery-3.jpg);
+    height: 350px;
+    width: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    cursor: pointer;
+} .ho2:hover{
+    background-size: 550px;
+
+}
+.ho3{
+    background: url(gallery-4.jpg);
+    height: 350px;
+    width: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    cursor: pointer;
+} .ho3:hover{
+    background-size: 550px;
+
+}
+.ho4{
+    background: url(gallery-5.jpg);
+    height: 350px;
+    width: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 150px;
+    cursor: pointer;
+}.ho4:hover{
+    background-size: 550px;
+
+}
+.ho5{
+    background: url(gallery-6.jpg);
+    height: 350px;
+    width: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 150px;
+    cursor: pointer;
+}.ho5:hover{
+    background-size: 550px;
+
+}.ho6{
+    background: url(gallery-7.jpg);
+    height: 350px;
+    width: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 150px;
+    cursor: pointer;
+}.ho6:hover{
+    background-size: 550px;
+
+}.ho7{
+    background: url(gallery-8.jpg);
+    height: 350px;
+    width: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 150px;
+    cursor: pointer;
+}.ho7:hover{
+    background-size: 550px;
+
+}
+.container-13{
+    background: whitesmoke;
+    height: 760px;
+    width: 100%;
+}
+.contain1{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: sans-serif;
+    color: #1c2f5f;
+}
+.conta1{
+    background: blue;
+    height: 3px;
+    width: 100px;
+    position: relative;
+    left: 710px;
+    top: 15px;   
+}
+.susp{
+    text-align: center;
+    width: 1100px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+.loca{
+    position: relative;
+    top: 200px;
+    left: 100px;
+    margin-top: 20px;
+    width: 300px;
+    cursor: pointer;
+}
+.fa-location-dot{
+    background: #c4d5ff;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    font-size: x-large;
+    padding-left: 20px;
+    padding-top: 18px;
+    color: rgb(42, 150, 251);
+    position: relative;
+    top: -8px;
+    transition: all 1s;
+}
+.loca:hover .fa-location-dot{
+    background: #1a49bf;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    font-size: x-large;
+    padding-left: 20px;
+    padding-top: 18px;
+    color: white;
+}
+.loc{
+    position: relative;
+    left: 90px;
+    top: -60px;
+    font-family: sans-serif;
+}
+.ada{
+    position: relative;
+    left: 90px;
+    top: -59px;
+    color: #626262;
+}
+.email{
+    background:  #c4d5ff;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    font-size: x-large;
+    padding-left: 18px;
+    padding-top: 18px;
+    color: rgb(42, 150, 251);
+    position: relative;
+    top: -8px;
+    transition: all 1s;
+}
+.loca:hover .email{
+    background: #1a49bf;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    font-size: x-large;
+    padding-left: 20px;
+    padding-top: 18px;
+    color: white;
+}
+.fa-mobile-screen-button{
+    background: #c4d5ff;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    font-size: x-large;
+    padding-left:20px;
+    padding-top: 18px;
+    color:rgb(42, 150, 251);
+    position: relative;
+    top: -8px;
+    transition: all 1s;
+}
+.loca:hover .fa-mobile-screen-button{
+    background: #1a49bf;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    font-size: x-large;
+    padding-left: 20px;
+    padding-top: 18px;
+    color: white;
+}
+.yo{
+    position: relative;
+    left: 530px;
+    top: -180px;
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 300px;
+}
+.su{
+    position: relative;
+    top: -150px;
+    left: 530px;
+    padding: 20px;
+    padding-right: 770px;
+}
+.mess{
+    position: relative;
+    top: -120px;
+    left: 530px;
+    padding: 20px;
+    padding-right: 770px;
+    padding-bottom: 100px;
+}
+.sen{
+    background: #0048ff;
+    padding: 10px;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: 50px;
+    color: white;
+    text-decoration: none;
+}
+.container-14{
+    background: white;
+    height: 300px;
+    width: 100%;
+}
+.new{
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 150px;
+}
+.str{
+    color: #20325e;
+    font-family: sans-serif;
+}
+.adam{
+    color: #525252;
+    position: relative;
+    top: 10px;
+    line-height: 25px;
+}
+.ph{
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+.ind{
+    position: relative;
+    top: -17px;
+    left: 50px;
+    font-weight: 100;
+
+}
+.new1{
+    position: relative;
+    left: 350px;
+    top: -130px;
+}
+.use{
+    font-family: sans-serif;
+}
+.hom{
+    display: block;
+    margin-top: 18px;
+    margin-left: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+.hom:hover{
+    color: #0048ff;
+}
+.new2{
+    position: relative;
+    left: 600px;
+    top: -340px;
+}
+.use1{
+    font-family: sans-serif;
+}
+.hom1{
+    display: block;
+    margin-top: 18px;
+    margin-left: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+.hom1:hover{
+    color: #0048ff;
+}
+.new3{
+    position: relative;
+    left: 950px;
+    top: -550px;
+}
+.ou{
+    font-family: sans-serif;
+}
+.ta{
+    position: relative;
+    top: 25px;
+    width: 250px;
+    line-height: 30px; 
+}
+.te{
+    position: relative;
+    top: 80px;
+    padding: 10px;
+    padding-right: 150px;
+    border-radius: 50px;
+    border-color: #0048ff;
+}
+.tea{
+    top: 81px;
+    position: relative;
+    left: -112px;
+    padding: 10px;
+    border-radius: 50px;
+    background: #5282fd;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container-15{
+    background: rgb(236, 236, 255);
+    height: 100px;
+    width: 100%;
+}
+.cop{
+    width: 250px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.hide2{
+    position: relative;
+    left: 1000px;
+    background: #7da2ff;
+    color: rgb(0, 47, 255);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    font-size: x-large;
+    padding-left: 14px;
+    padding-top: 14px;
+    cursor: pointer;
+    transition: all 1s;
+    margin-left: 10px;
+}
+.hide2:hover{
+    background: blue;
+    color: white;
+}
+.fa-arrow-up{
+    left:1469px;
+    bottom: 5px;
+    display: block;
+    background: #0048ff;
+    border-radius: 8px;
+    height: 50px;
+    width: 50px;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: large;
+    position: fixed;
+    
+}
+@media (max-width:480px){
+    .fa-arrow-up{
+       display: none;
+    }
+    .container{
+       width: 100%;
+       height: 50px;
+       position: relative;
+    }
+    .lo{
+        display: none;
+    }
+    .row{
+        position: relative;
+        left: 15px;
+        top: 10px;
+        font-size: 20px;
+        width: 150px;
+    }
+    .fa-angle-left{
+        position: relative;
+        left: 0px;
+        font-size: 21px;
+    }
+    .row-1{
+        position: relative;
+        right: 10px;
+    }
+    .fa-chevron-right{
+        position: relative;
+        left: -20px;
+    }
+    .row-2{
+        position: relative;
+        left: 240px;
+        top: -10px;
+    }
+    .fa-arrow-up-right-from-square{
+        display: none;
+    }
+    .fa-download{
+        z-index: 1;
+        left: 60px;
+    }
+    .fre{
+        padding-left: 30px;
+        position: relative;
+        left: 29px;
+        border-radius: 2px;
+    }
+    .container-1{
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+    .con{
+        left: 15px;
+        font-size: 15px;
+    }
+    .con-1{
+        left: 290px;
+        font-size: 15px;
+    }
+    .con-2{
+        display: none;
+    }
+    .container-2{
+        position: relative;
+        height: 20px;
+        width: 100%;
+    }
+    .me{
+        position: relative;
+        top: -70px;
+        left: 15px;
+        display: block;
+    }
+    .list{
+        display: none;
+    }
+    .ma{
+        position: relative;
+        display: block;
+        top: -110px;
+        left: 220px;
+        height: 40px;
+        width: 180px;
+    }
+    .fa-bars{
+        display: block;
+        position: relative;
+        left: 440px;
+        top: -140px;
+        font-size: 20px;
+    }
+    .container-3{
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        background: url(young-handsome-physician-medical-robe-with-stethoscope_1303-17818.avif);
+        height: 550px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+    }
+    .con-3{
+        position: relative;
+        top: 100px;
+        left: 20px;
+    }
+    .wel{
+        font-size: 30px;
+    }
+    .are{
+        position: relative;
+        top: 20px;
+        font-size: 18px;
+        width: 300px;
+    }
+    .get{
+        position: relative;
+        top: 70px;
+        padding: 10px;
+    }
+    .container-4{
+        position: relative;
+        width: 100%;
+        height: 2800px;
+    }
+    .table{
+        position: relative;
+        top: 20px;
+        left: 8%;
+        height: 380px;
+        width: 400px;
+        display: block;
+    }
+    .wh{
+        position: relative;
+        top: -10px;
+        left: 30;
+        width:450px;
+        font-size: 25px;
+    }
+    .lor{
+        position: relative;
+        top: -90;
+        width: 460px;
+        left: -30px;
+        text-align: justify;
+    }
+    .le{
+        position: relative;
+        left: 135px;
+        top: -80px;
+    }
+    .table-1{
+        position: relative;
+        left: 90px;
+        top: 50px;
+        box-shadow: 1px 1px 10px rgb(171, 171, 171);
+    }
+    .table-2{
+        position: relative;
+        left: 90px;
+        top: 80px;
+        box-shadow: 1px 1px 10px rgb(171, 171, 171);
+    }
+    .table-3{
+        position: relative;
+        left: 90px;
+        top: 100px;
+        box-shadow: 1px 1px 10px rgb(171, 171, 171);
+    }
+    .table-4{
+        height: 550px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        width: 100%;
+        top: 150px;
+    }
+    .fa-play{
+        position: relative;
+        left: 40%;
+    }
+    .table-5{
+        position: relative;
+        width: 95%;
+        left: 20px;
+        top: 200px;
+    }
+    .ips{
+        position: relative;
+        left: 40%;
+    }
+    .vo{
+        position: relative;
+        width:80% ;
+    }
+    .container-5{
+        position: relative;
+        width: 100%;
+        height: 900px;
+        overflow: hidden;
+    }
+    .doc{
+        position: relative;
+        left: 20px;
+    }
+    .container-6{
+        position: relative;
+        width: 100%;
+        height: 2500px;
+    }
+    .se{
+        position: relative;
+        text-align: center;
+    }
+    .under{
+        position: relative;
+        left: 39%;
+    }
+    .mag{
+        position: relative;
+        left: 20px;
+        text-align: justify;
+        width: 90%;
+    }
+    .bo{
+        position: relative;
+        left: -55px;
+        width: 90%;
+        top: 90px;
+        margin-top: 50px;
+        display: block;
+    }
+    .hea{
+        position: relative;
+        left: 38%;
+    }
+    .container-7{
+        position: relative;
+        width: 100%;
+        height: 1100px;
+    }
+    .start{
+        position: relative;
+        left: 36%;
+    }
+    .magnam{
+        position: relative;
+        width: 90%;
+        left: 20px;
+        text-align: justify;
+    }
+    .na{
+        position: relative;
+        top: 130px;
+        left: 105px;
+    }
+    .name{
+        position: relative;
+        width: 90%;
+        left: -130px;
+        margin-top: 20px;
+    }
+    .na-1{
+        position: relative;
+        left: -135px;
+    }
+    .app{
+        position: relative;
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 260px;
+        top: -100px;
+        left: 10;
+    }
+    .sel{
+        position: relative;
+        left: -40px;
+        padding: 10px;
+        padding-right: 290px;
+        top: -80px;
+    }
+    .sel1{
+        position: relative;
+        left: -40px;
+        top: -60px;
+        padding: 10px;
+        padding-right: 350px;
+    }
+    .mes{
+        position: relative;
+        left: 20px;
+        top: 210px;
+        padding-right: 260px;
+    }
+    .makea{
+        position: relative;
+        left: 35%;
+        top: 300px;
+    }
+    .container-8{
+        position: relative;
+        width: 100%;
+        height: 1300px;
+    }
+    .poi{
+        position: relative;
+        left: 35%;
+    }
+    .dol{
+        position: relative;
+        left: 20px;
+        width: 90%;
+        text-align: justify;
+    }
+    .ca-1{
+        background: #393298;
+        height: 40px;
+        margin-bottom: 20px;
+        color: white;
+        position: relative;
+        left: -15px;
+        border-radius: 2px;
+        text-align: center;
+        top: -30px;
+        width: 250px;
+    }
+    .cd{
+        display: none;
+    }
+    .pic{
+        position: relative;
+        left: 10px;
+        top: -450px;
+        width: 90%;
+    }
+    .card{
+        position: relative;
+        left: 15px;
+        top: 350px;
+    }
+    .ol{
+       position: relative;
+       top: 80px;
+       left: 30%;
+    }
+    .qu{
+       position: relative;
+       width: 90%;
+       text-align: justify;
+       top: 100px;
+    }
+    .et{
+        position: relative;
+        width: 90%;
+        text-align: justify;
+        top: 130px;
+    }
+    .container-9{
+        position: relative;
+        width: 100%;
+        height: 1500px;
+    }
+    .litt-1{
+        position: relative;
+        left: 40%;
+    }
+    .comm{
+        position: relative;
+        left: 25;
+        text-align: justify;
+        top: 100;
+        width: 90%;
+    }
+    .doctor{
+        position: relative;
+        width: 90%;
+        left: -55px;
+        top: 0px;
+    }
+    .doctor1{
+        position: relative;
+        width: 90%;
+        left: -5px;
+        top: -130px;
+    }
+    .doctor2{
+        position: relative;
+        width: 90%;
+        left: -55px;
+        top: -140px;
+    }
+    .doctor3{
+        position: relative;
+        width: 90%;
+        left: -5px;
+        top: -150px;
+    }
+    .docc{
+        position: relative;
+        top: 10px;
+        left: 10px;
+        background-size:cover;
+        border-radius: 100%;
+        height: 80px;
+        width: 80px;
+    }
+    .doct{
+        position: relative;
+        left: 100;
+    }
+    .docto{
+        position: relative;
+        left: 100;
+        width: 200px;
+    }
+    .exp{
+        position: relative;
+        width: 170px;
+        left: 100px;
+        top: 30px;
+    }
+    .hide1{
+        position: relative;
+        left: 100px;
+        top: 50px;
+        display: inline-block;
+        width: 17px;
+    }
+    .container-10{
+        position: relative;
+        width: 100%;
+        height: 800px;
+    }
+    .fr{
+        position: relative;
+        left: 140px;
+    }
+    .commmo{
+        position: relative;
+        left: 25px;
+        width: 90%;
+        text-align: justify;
+    }
+    .nonn{
+        position: relative;
+        left: 25px;
+        top: 150px;
+        width: 90%;
+        margin-top: 10px;
+        height: 80px;
+    }
+    .fe{
+        position:absolute;
+        left: 20px;
+        width: 90%;
+    }
+    .ch{
+        position: relative;
+        left: 360;
+        top: -0px;
+    }
+    .ch1{
+        position: relative;
+        left: 360px;
+        top: 0px;
+    }
+    .ch2{
+        position: relative;
+        left: 360px;
+        top: 0px;
+    }
+    .ch3{
+        position: relative;
+        left: 360;
+        top: 0px;
+    }
+    .ch4{
+        position: relative;
+        left: 360;
+        top: 0px;
+    }
+    .container-11{
+        position: relative;
+        height: 700px;
+        width: 100%;
+    }
+    .saul1{
+        position: relative;
+        left: -75px;
+        width: 90%;
+        height: 450px;
+    }
+    .saul2{
+        display: none;
+    }
+    .saul{
+        position: relative;
+        left: 25%;
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+        height: 150px;
+        top: 30px;
+    }
+    .goo{
+        position: relative;
+        top: 80px;
+        left: 155px;
+    }
+    .ceo{
+        position: relative;
+        top: 100px;
+        left: 173px;
+    }
+    .pro{
+        position: relative;
+        top: 100px;
+        text-align: justify;
+        width: 100%;
+        left: -0px;
+    }
+    .ra{
+        position: relative;
+        left: 200px;
+        top: 150;
+    }
+    .container-12{
+        position: relative;
+        width: 100%;
+        height: 2200px;
+    }
+    .gal{
+        position: relative;
+        left: 200px;
+    }
+    .sus{
+        position: relative;
+        left: 25px;
+        width: 90%;
+        text-align: justify;
+    }
+    .hog{
+        position: relative;
+        left: 25px;
+        width: 90%;
+        height: 190px;
+        margin-top: 30px;
+    }
+    .container-13{
+        position: relative;
+        height: 1200px;
+        width: 100%;
+    }
+    .conta1{
+        position: relative;
+        left: 190px;
+    }
+    .susp{
+        position: relative;
+        left: 25px;
+        width: 90%;
+        text-align: justify;
+    }
+    .loca{
+        position: relative;
+        left: 25px;
+        font-size: 20px;
+        top: 130px;
+    }
+    .yo{
+        position: relative;
+        left: 35px;
+        top: 100px;
+        margin-top: 30px;
+        padding: 20px;
+        padding-right: 150px;
+    }
+    .su{
+        position: relative;
+        left: 34px;
+        top: 130px;
+        padding: 20px;
+        padding-right: 150px;
+    }
+    .mess{
+        position: relative;
+        left: 33px;
+        top: 150px;
+        padding-right: 150px;
+    }
+    .sen{
+        position: relative;
+        left: -150px;
+        top: 310px;
+    }
+    .container-14{
+        position: relative;
+        width: 100%;
+        height: 1100px;
+    }
+    .new{
+        position: relative;
+        left: 30px;
+    }
+    .new1{
+        position: relative;
+        left: 30px;
+        top: 100px;
+    }
+    .new2{
+        position: relative;
+        left: 30px;
+        top: 150px;
+    }
+    .new3{
+        position: relative;
+        left: 30px;
+        top: 190px;
+    }
+    .te{
+        position: relative;
+        left: -10px;
+        padding: 10px;
+        padding-right: 100px;
+        }
+    .tea{
+        position: relative;
+        left: -120px;
+        top:82px;
+    }
+    .container-15{
+        position: relative;
+        height: 300px;
+        width: 100%;
+    }
+    .cop{
+        position: relative;
+        left: 30px;
+        top: 50px;
+        text-align: justify;
+        width: 90%;
+    }
+    .hide2{
+        position: relative;
+        left: 90px;
+        top: 100px;
+        
+    }
+
+}
+@media (max-width:320px){
+    .fa-arrow-up{
+       display: none;
+    }
+    .container{
+       width: 100%;
+       height: 50px;
+       position: relative;
+    }
+    .lo{
+        display: none;
+    }
+    .row{
+        position: relative;
+        left: 5px;
+        top: 10px;
+        font-size: 20px;
+        width: 150px;
+    }
+    .fa-angle-left{
+        position: relative;
+        left: 0px;
+        font-size: 21px;
+    }
+    .row-1{
+        position: relative;
+        right: 10px;
+    }
+    .fa-chevron-right{
+        position: relative;
+        left: -20px;
+    }
+    .row-2{
+        position: relative;
+        left: 85px;
+        top: -10px;
+    }
+    .fa-arrow-up-right-from-square{
+        display: none;
+    }
+    .fa-download{
+        z-index: 1;
+        left: 60px;
+    }
+    .fre{
+        padding-left: 30px;
+        position: relative;
+        left: 29px;
+        border-radius: 2px;
+    }
+    .container-1{
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+    .con{
+        left: 5;
+        font-size: 15px;
+    }
+    .con-1{
+        left: 190px;
+        font-size: 15px;
+    }
+    .con-2{
+        display: none;
+    }
+    .container-2{
+        position: relative;
+        height: 20px;
+        width: 100%;
+    }
+    .me{
+        position: relative;
+        top: -70px;
+        left: 5px;
+        display: block;
+    }
+    .list{
+        display: none;
+    }
+    .ma{
+        position: relative;
+        display: block;
+        top: -105px;
+        left: 160px;
+        height: 40px;
+        width: 110px;
+    }
+    .mae{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+        position: relative;
+        left: 290px;
+        top: -140px;
+        font-size: 20px;
+    }
+    .container-3{
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        background: url(young-handsome-physician-medical-robe-with-stethoscope_1303-17818.avif);
+        height: 550px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+    }
+    .con-3{
+        position: relative;
+        top: 100px;
+        left: 20px;
+    }
+    .wel{
+        font-size: 30px;
+    }
+    .are{
+        position: relative;
+        top: 20px;
+        font-size: 18px;
+        width: 300px;
+    }
+    .get{
+        position: relative;
+        top: 70px;
+        padding: 10px;
+    }
+    .container-4{
+        position: relative;
+        width: 100%;
+        height: 3000px;
+    }
+    .table{
+        position: relative;
+        top: 20px;
+        left: 10px;
+        height: 380px;
+        width: 300px;
+        display: block;
+    }
+    .wh{
+        position: relative;
+        top: -10px;
+        left: -20;
+        width:450px;
+        font-size: 25px;
+    }
+    .lor{
+        position: relative;
+        top: -90;
+        width: 360px;
+        left: -25;
+    }
+    .le{
+        position: relative;
+        left: 85px;
+        top: -110px;
+    }
+    .table-1{
+        position: relative;
+        left: 10px;
+        top: 50px;
+        box-shadow: 1px 1px 10px rgb(171, 171, 171);
+    }
+    .table-2{
+        position: relative;
+        left: 10px;
+        top: 80px;
+        box-shadow: 1px 1px 10px rgb(171, 171, 171);
+    }
+    .table-3{
+        position: relative;
+        left: 10px;
+        top: 100px;
+    }
+    .table-4{
+        height: 550px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        width: 100%;
+        top: 150px;
+    }
+    .fa-play{
+        position: relative;
+        left: 40%;
+    }
+    .table-5{
+        position: relative;
+        width: 95%;
+        left: 10px;
+        top: 200px;
+    }
+    .eni-1{
+        position: relative;
+    }
+    .ips{
+        position: relative;
+        left: 30%;
+    }
+    .vo{
+        position: relative;
+        width:70% ;
+    }
+    .container-5{
+        position: relative;
+        width: 100%;
+        height: 900px;
+        overflow: hidden;
+    }
+    .doc{
+        position: relative;
+        left: -60px;
+    }
+    .container-6{
+        position: relative;
+        width: 100%;
+        height: 2500px;
+    }
+    .se{
+        position: relative;
+        text-align: center;
+    }
+    .under{
+        position: relative;
+        left: 33%;
+    }
+    .mag{
+        position: relative;
+        left: 15px;
+        text-align: justify;
+        width: 90%;
+    }
+    .bo{
+        position: relative;
+        left: -65px;
+        width: 90%;
+        top: 90px;
+        margin-top: 50px;
+        display: block;
+    }
+    .hea{
+        position: relative;
+        left: 38%;
+    }
+    .container-7{
+        position: relative;
+        width: 100%;
+        height: 1200px;
+    }
+    .start{
+        position: relative;
+        left: 26%;
+    }
+    .magnam{
+        position: relative;
+        width: 90%;
+        left: 15px;
+        text-align: justify;
+    }
+    .na{
+        position: relative;
+        top: 130px;
+    }
+    .name{
+        position: relative;
+        width: 90%;
+        left: -135px;
+        margin-top: 20px;
+    }
+    .na-1{
+        position: relative;
+        left: -135px;
+    }
+    .app{
+        position: relative;
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 110px;
+        top: -100px;
+    }
+    .sel{
+        position: relative;
+        left: -50px;
+        padding: 10px;
+        padding-right: 140px;
+        top: -80px;
+    }
+    .sel1{
+        position: relative;
+        left: -50px;
+        top: -60px;
+        padding: 10px;
+        padding-right: 200px;
+    }
+    .mes{
+        position: relative;
+        left: 15px;
+        top: 210px;
+        padding-right: 110px;
+    }
+    .makea{
+        position: relative;
+        left: 25%;
+        top: 280px;
+    }
+    .container-8{
+        position: relative;
+        width: 100%;
+        height: 1500px;
+    }
+    .poi{
+        position: relative;
+        left: 28%;
+    }
+    .dol{
+        position: relative;
+        left: 15px;
+        width: 90%;
+        text-align: justify;
+    }
+    .ca-1{
+        background: #393298;
+        height: 40px;
+        margin-bottom: 20px;
+        color: white;
+        position: relative;
+        left: -95px;
+        border-radius: 2px;
+        text-align: center;
+        top: -30px;
+        width: 250px;
+    }
+    .cd{
+        display: none;
+    }
+    .pic{
+        position: relative;
+        left: 0px;
+        top: -580px;
+        width: 90%;
+    }
+    .card{
+        position: relative;
+        left: 15px;
+        top: 350px;
+    }
+    .ol{
+       position: relative;
+       top: 80px;
+       left: 20%;
+    }
+    .qu{
+       position: relative;
+       width: 90%;
+       text-align: justify;
+       top: 100px;
+    }
+    .et{
+        position: relative;
+        width: 90%;
+        text-align: justify;
+        top: 130px;
+    }
+    .container-9{
+        position: relative;
+        width: 100%;
+        height: 1600px;
+    }
+    .litt-1{
+        position: relative;
+        left: 35%;
+    }
+    .comm{
+        position: relative;
+        left: 15;
+        text-align: justify;
+        top: 100;
+        width: 90%;
+    }
+    .doctor{
+        position: relative;
+        width: 90%;
+        left: -65px;
+        top: 0px;
+    }
+    .doctor1{
+        position: relative;
+        width: 90%;
+        left: -15px;
+        top: -130px;
+    }
+    .doctor2{
+        position: relative;
+        width: 90%;
+        left: -65px;
+        top: -140px;
+    }
+    .doctor3{
+        position: relative;
+        width: 90%;
+        left: -15px;
+        top: -150px;
+    }
+    .docc{
+        position: relative;
+        top: 10px;
+        left: 10px;
+        background-size:cover;
+        border-radius: 100%;
+        height: 80px;
+        width: 80px;
+    }
+    .doct{
+        position: relative;
+        left: 100;
+    }
+    .docto{
+        position: relative;
+        left: 100;
+        width: 200px;
+    }
+    .exp{
+        position: relative;
+        width: 170px;
+        left: 100px;
+        top: 30px;
+    }
+    .hide1{
+        position: relative;
+        left: 100px;
+        top: 50px;
+        display: inline-block;
+        width: 17px;
+    }
+    .container-10{
+        position: relative;
+        width: 100%;
+        height: 1000px;
+    }
+    .fr{
+        position: relative;
+        left: 60px;
+    }
+    .commmo{
+        position: relative;
+        left: 15px;
+        width: 90%;
+        text-align: justify;
+    }
+    .nonn{
+        position: relative;
+        left: 15px;
+        top: 150px;
+        width: 90%;
+        margin-top: 10px;
+        height: 80px;
+    }
+    .fe{
+        position:absolute;
+        left: 20px;
+        width: 90%;
+    }
+    .ch{
+        position: relative;
+        left: 220;
+        top: 20px;
+    }
+    .ch1{
+        position: relative;
+        left: 220;
+        top: 20px;
+    }
+    .ch2{
+        position: relative;
+        left: 220;
+        top: 20px;
+    }
+    .ch3{
+        position: relative;
+        left: 220;
+        top: 20px;
+    }
+    .ch4{
+        position: relative;
+        left: 220;
+        top: 40px;
+    }
+    .container-11{
+        position: relative;
+        height: 700px;
+        width: 100%;
+    }
+    .saul1{
+        position: relative;
+        left: -85px;
+        width: 90%;
+        height: 450px;
+    }
+    .saul2{
+        display: none;
+    }
+    .saul{
+        position: relative;
+        left: 25%;
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+        top: 30px;
+    }
+    .goo{
+        position: relative;
+        top: 80px;
+        left: 80px;
+    }
+    .ceo{
+        position: relative;
+        top: 100px;
+        left: 95px;
+    }
+    .pro{
+        position: relative;
+        top: 100px;
+        text-align: justify;
+        width: 115%;
+        left: -20px;
+    }
+    .ra{
+        position: relative;
+        left: 130px;
+        top: 150;
+    }
+    .container-12{
+        position: relative;
+        width: 100%;
+        height: 2200px;
+    }
+    .gal{
+        position: relative;
+        left: 120px;
+    }
+    .sus{
+        position: relative;
+        left: 15px;
+        width: 90%;
+        text-align: justify;
+    }
+    .hog{
+        position: relative;
+        left: 15px;
+        width: 90%;
+        height: 190px;
+        margin-top: 30px;
+    }
+    .container-13{
+        position: relative;
+        height: 1200px;
+        width: 100%;
+    }
+    .conta1{
+        position: relative;
+        left: 110px;
+    }
+    .susp{
+        position: relative;
+        left: 15px;
+        width: 90%;
+        text-align: justify;
+    }
+    .loca{
+        position: relative;
+        left: 15px;
+        font-size: 11px;
+        top: 130px;
+    }
+    .yo{
+        position: relative;
+        left: 25px;
+        top: 100px;
+        margin-top: 30px;
+        padding: 10px;
+        padding-right: 100px;
+    }
+    .su{
+        position: relative;
+        left: 24px;
+        top: 130px;
+        padding: 10px;
+        padding-right: 100px;
+    }
+    .mess{
+        position: relative;
+        left: 23px;
+        top: 150px;
+        padding-right: 90px;
+    }
+    .sen{
+        position: relative;
+        left: 100px;
+        top: 240px;
+    }
+    .container-14{
+        position: relative;
+        width: 100%;
+        height: 1100px;
+    }
+    .new{
+        position: relative;
+        left: 20px;
+    }
+    .new1{
+        position: relative;
+        left: 20px;
+        top: 100px;
+    }
+    .new2{
+        position: relative;
+        left: 20px;
+        top: 150px;
+    }
+    .new3{
+        position: relative;
+        left: 20px;
+        top: 190px;
+    }
+    .te{
+        position: relative;
+        left: -10px;
+        padding: 10px;
+        padding-right: 100px;
+        }
+    .tea{
+        position: relative;
+        left: 157px;
+        top: 51px;
+    }
+    .container-15{
+        position: relative;
+        height: 300px;
+        width: 100%;
+    }
+    .cop{
+        position: relative;
+        left: 20px;
+        text-align: justify;
+        width: 90%;
+    }
+    .hide2{
+        position: relative;
+        left: 20px;
+        top: 80px;
+        
+    }
+
+}
