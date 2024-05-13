@@ -1,2 +1,2 @@
-# Medilab re built website
-https://vinoth315kumar.github.io/Medilab/
+# Medilab re built website 
+https://vinoth-kumar-e.github.io/Medilab/
